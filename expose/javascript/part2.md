@@ -83,11 +83,12 @@
         F. true === Boolean(2) --> true Because Boolean(2) is true (not 0, it will be false if Boolean(0))
     
 15. "==" checks if two values are equal and it is allow type conversion, so it can convert type and do the check. "===" checks if two values are exactly the same value and the same type, and not allow type conversion.
-    
-17. It will output: [2, 4, 6]
+
+1 7. It will output: [2, 4, 6]
 
     "modifyArray" takes parameters: array [1, 2, 3] and calls function "doSomething". The "doSomething" function multiplies each number by 2. Inside "modifyArray", when i = 0: array[0] is 1, so callback(1) is the same as calling doSomething(1) --> returns 1 * 2 --> 2. And keep doing the similar steps, so we get [2, 4, 6].
-    
-19. It will output: 1 4 3 2
+
+
+1 9. It will output: 1 4 3 2
 
     "console.log(1)" and "console.log(4)" will run immediately, so we get 1 4. "setTimeout" has a delay of 0 ms and 1000 ms, so it will print out 3 then 2.
